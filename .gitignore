@@ -25,3 +25,40 @@ gradle-app.setting
 
 # idea/
 .idea/
+# JavaScript dependencies and generated output (all packages)
+node_modules/
+dist/
+dist-ssr/
+coverage/
+*.tsbuildinfo
+
+# Environment variants; keep shareable templates
+.env.*
+!.env.example
+!.env.*.example
+
+# Local editor and OS files
+.vscode/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+Thumbs.db
+
+# Local Spring overrides (keep shared application.properties tracked)
+/backend/src/main/resources/application-local.properties
+/backend/src/main/resources/application-local.yml
+/backend/src/main/resources/application-local.yaml
+/backend/src/main/resources/application-secrets.properties
+/backend/src/main/resources/application-secrets.yml
+/backend/src/main/resources/application-secrets.yaml
+
+# Private keys and credential stores
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa
+id_ed25519
