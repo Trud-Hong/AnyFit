@@ -7,7 +7,7 @@ function LoginPage(){
 
                 <div>
                     <div className={"mb-6"}>
-                        <p className={"text-[44px] font-bold leading-[1.5] text-white"}>운영은 간편하게,</p>
+               m         <p className={"text-[44px] font-bold leading-[1.5] text-white"}>운영은 간편하게,</p>
                         <p className={"text-[44px] font-bold leading-[1.5] text-white"}>운동은 자유롭게,</p>
                     </div>
 
